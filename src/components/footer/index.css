@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.fot_name {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.fot_desc {
+    margin-bottom: 10px;
+    width: 250px;
+    max-width: 100%;
+}
+
+.fot_redes {
+    display: flex;
+    gap: 8px;
+}
+
+.fot_rede {
+    transition: all 0.3s;
+}
+
+.fot_rede:hover {
+    opacity: 0.8;
+    transition: all 0.3s;
+}
+
+.fot_info_section {
+    height: fit-content;
+    padding-left: 10px;
+    border-left: 3px solid #eef8ff;
+}
+
+.fot_infos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fot_info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

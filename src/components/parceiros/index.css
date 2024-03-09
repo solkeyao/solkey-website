@@ -1,0 +1,13 @@
+.parc_list {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.parc_item {
+    filter: saturate(0);
+}
+
+.parc_item:hover {
+    filter: saturate(1);
+}

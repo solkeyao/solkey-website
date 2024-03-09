@@ -1,0 +1,37 @@
+.proj_grid {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 800px;
+    margin: 0px auto;
+}
+
+.proj_item {
+    position: relative;
+}
+
+.proj_item img {
+    filter: brightness(1);
+    width: 420px;
+    transition: all .3s;
+
+}
+
+.proj_item:hover img {
+    filter: brightness(0.3);
+    transition: all .3s;
+}
+
+.proj_item:hover .proj_item_link {
+    display: block;
+}
+
+.proj_item_link {
+    position: absolute;
+    left: 50%;
+    display: none;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
