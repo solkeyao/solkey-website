@@ -16,7 +16,7 @@ export default function Footer(){
                     <li className='fot_rede'>
                         <a href="https://www.facebook.com/profile.php?id=100063807830535"
                         target="_blank">
-                            <img src="/assets/icon_facebook.png" alt="Icon Facebook" />
+                            <img width='24px' src="/assets/icon_facebook.png" alt="Icon Facebook" />
                         </a>
                     </li>
                 </ul>
@@ -24,18 +24,18 @@ export default function Footer(){
             <div className='fot_info_section'>
                 <ul className='fot_infos'>
                     <li className='fot_info'>
-                        <img width='24px' src="/assets/icon_endereco.png" alt="" />
+                        <img width='20px' src="/assets/icon_endereco.png" alt="" />
                         Urbanização Nova Vida, Rua 181 Nº6024, Luanda
                     </li>
 
                     <li  className='fot_info'>
-                        <img width='24px' src="/assets/icon_email.png" alt="" />
+                        <img width='20px' src="/assets/icon_email.png" alt="" />
                         KeySolution004@hotmail.com
                     </li>
 
                     
                     <li  className='fot_info'>
-                        <img width='24px' src="/assets/icon_tel.png" alt="" />
+                        <img width='20px' src="/assets/icon_tel.png" alt="" />
                         939 416 647
                     </li>
                 </ul>
