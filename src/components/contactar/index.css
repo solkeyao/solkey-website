@@ -1,6 +1,6 @@
 .contactar {
     background-image: url('/assets/image_3.jpg');
-    background-size: 100%;
+    background-size: cover;
 }
 
 .con_form {
