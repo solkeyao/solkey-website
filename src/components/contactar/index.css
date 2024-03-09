@@ -1,6 +1,6 @@
 .contactar {
     background-image: url('/assets/image_3.jpg');
-    background-size: cover;
+    background-size: 100%;
 }
 
 .con_form {
@@ -29,4 +29,22 @@
     border-radius: 10px;
     margin: 15px auto 0px auto;
     cursor: pointer;
+}
+
+.con_btn_submit_pending{
+animation: pulse infinite 1s;
+}
+
+@keyframes pulse{
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 1;
+    }
+
 }

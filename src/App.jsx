@@ -5,10 +5,12 @@ import Parcerios from "./components/parceiros";
 import Projectos from "./components/projectos";
 import Contactar from "./components/contactar";
 import Footer from "./components/footer";
+import { Toaster } from "react-hot-toast";
 
 export default function App(){
     return (
         <>
+          <Toaster />
           <Header />
           <QuemSomos />
           <Servicos />
