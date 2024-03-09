@@ -38,6 +38,7 @@ export default function Navbar(){
                         }>
                             <a href="/#">Home</a>
                         </li>
+                        {/*
                         <li className={"nav_link " + 
                         (currentSection == 1 ?  'nav_link_active' : '')} onClick={
                             (ev)=>{
@@ -47,6 +48,8 @@ export default function Navbar(){
                         }>
                             <a href="/#quem-somos">Quem somos</a>
                         </li>
+
+                         */}
                         <li className={"nav_link " + 
                         (currentSection == 2 ?  'nav_link_active' : '')} onClick={
                             (ev)=>{

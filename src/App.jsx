@@ -12,7 +12,9 @@ export default function App(){
         <>
           <Toaster />
           <Header />
+          {/*
           <QuemSomos />
+    */}
           <Servicos />
           <Parcerios />
           <Projectos />
