@@ -1,10 +1,9 @@
-import Navbar from "../navbar";
 import './index.css';
 
-export default function Header(){
+export default function Header({navbar=''}){
     return (
         <header className="header">
-            <Navbar />
+            {navbar}
             <div className="header_main">
                 <div className="header_content">
                     <h1>
