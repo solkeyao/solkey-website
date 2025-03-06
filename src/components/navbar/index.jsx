@@ -48,8 +48,8 @@ export default function Navbar({ startSection = 0 }) {
     return (
         <nav className="navbar">
             <a className="nav_logo" href="/#">
-                <img width='32px' src="/assets/keysolution_icon.png" alt="Keysolution icon" />
-                KeySolution
+                <img width='32px' src="/assets/solkey_icon.png" alt="Sol Key icon" />
+                Sol Key
             </a>
 
             <ul className={"nav_links " + (showNavLinks ? 'nav_links_show' : '')}>

@@ -12,7 +12,7 @@ export default function Header({navbar=''}){
                     <p className="text-justify">
                         Soluções tecnológicas personalizadas
                         para impulsionar o sucesso da sua 
-                        empresa. Descubra como a KeySolution 
+                        empresa. Descubra como a Sol Key 
                         pode ajudar você a alcançar seus 
                         objetivos de negócios com inovação,
                         expertise e excelência.

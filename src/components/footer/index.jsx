@@ -5,7 +5,7 @@ export default function Footer(){
         <footer className='d-section footer'>
             <div>
                 <div className='fot_name'>
-                    <span className='azul'>Key</span>Solution
+                    <span className='azul'>Sol</span>Key
                 </div>
                 <div className='fot_desc'>
                     Desbloqueando Soluções 
@@ -30,7 +30,7 @@ export default function Footer(){
 
                     <li  className='fot_info'>
                         <img width='20px' src="/assets/icon_email.png" alt="" />
-                        KeySolution004@hotmail.com
+                        solkey.ao@gmail.com
                     </li>
 
                     
