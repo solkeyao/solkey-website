@@ -1,4 +1,5 @@
 import './index.css';
+import { motion } from 'framer-motion';
 
 export default function QuemSomos() {
     return (
@@ -6,8 +7,12 @@ export default function QuemSomos() {
             <div className="container">
                 {/* Header Section */}
                 <div className="header-section">
-                    <h1 className="main-title">Quem Somos</h1>
-                    <p className="subtitle">Transformando ideias em realidade digital</p>
+                    <h1 className="main-title">
+                        Quem Somos
+                    </h1>
+                    <p className="subtitle">
+                        Transformando ideias em realidade digital
+                    </p>
                 </div>
 
                 {/* Main Content */}
