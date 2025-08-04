@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client';
 import Home from './pages/home';
 import QuemSomos from './pages/quem-somos';
+import Equipe from './pages/equipe';
 import './index.css'
 
 import {
@@ -18,6 +19,11 @@ import {
   {
     path: "/quem-somos",
     element:  <QuemSomos />,
+  },
+
+  {
+    path: "/equipe",
+    element:  <Equipe />,
   },
 ]);
 

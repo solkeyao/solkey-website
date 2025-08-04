@@ -7,20 +7,25 @@ export default function Header({navbar=''}){
             <div className="header_main">
                 <div className="header_content">
                     <h1>
-                        Transformando ideias em realidade:
+                        Transformando <span className="highlight">ideias em realidade digital</span>
                     </h1>
                     <p className="text-justify">
-                        Soluções tecnológicas personalizadas
-                        para impulsionar o sucesso da sua 
-                        empresa. Descubra como a Sol Key 
-                        pode ajudar você a alcançar seus 
-                        objetivos de negócios com inovação,
-                        expertise e excelência.
+                        Somos especialistas em desenvolvimento web, marketing digital e design gráfico. 
+                        Criamos soluções tecnológicas personalizadas que impulsionam o crescimento do seu negócio, 
+                        desde websites modernos até estratégias de marketing que geram resultados reais.
                     </p>
                     
-                    <a className="btn_seguir" href="/#quem-somos">Seguir
-                        <img width='20px' src="/assets/icon_right.png" alt="Icon Right" />
-                    </a>
+                    <div className="header_buttons">
+                        <a className="btn_primary" href="/#contactar">
+                            Iniciar um projeto
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                        <a className="btn_secondary" href="/#servicos">
+                            Nossos serviços
+                        </a>
+                    </div>
                    
                 </div>
                 <div className="header_image">
