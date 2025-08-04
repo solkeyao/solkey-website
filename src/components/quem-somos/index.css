@@ -1,8 +1,388 @@
-.q_image {
-    float: left;
-    margin: 0px 20px 10px 0px;
+/* Quem Somos Section Styles */
+.quem-somos-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  min-height: 100vh;
 }
 
-.q_content {
-    text-align: justify;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Section */
+.header-section {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 16px;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--text-light);
+  font-weight: 400;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  align-items: start;
+  margin-bottom: 80px;
+}
+
+/* Image Section */
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.image-container {
+  position: relative;
+  padding: 20px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(11, 65, 122, 0.1);
+  transition: all 0.3s ease;
+}
+
+.image-container:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 60px rgba(11, 65, 122, 0.15);
+}
+
+.company-logo {
+  width: 280px;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Description Section */
+.description-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.mission-card,
+.services-card,
+.commitment-card,
+.partnership-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(11, 65, 122, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(11, 65, 122, 0.05);
+}
+
+.mission-card:hover,
+.services-card:hover,
+.commitment-card:hover,
+.partnership-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(11, 65, 122, 0.12);
+  border-color: var(--primary-color);
+}
+
+.card-icon {
+  width: 50px;
+  height: 50px;
+  background: var(--gradient-primary);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.card-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.mission-card h3,
+.services-card h3,
+.commitment-card h3,
+.partnership-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 12px;
+}
+
+.mission-card p,
+.services-card p,
+.commitment-card p,
+.partnership-card p {
+  color: var(--text-light);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Values Section */
+.values-section {
+  margin-bottom: 80px;
+}
+
+.values-section .section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 50px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.value-item {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(11, 65, 122, 0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(11, 65, 122, 0.05);
+}
+
+.value-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(11, 65, 122, 0.12);
+}
+
+.value-icon {
+  width: 80px;
+  height: 80px;
+  background: var(--gradient-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: white;
+}
+
+.value-item h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 12px;
+}
+
+.value-item p {
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.cta-section {
+  text-align: center;
+  background: var(--gradient-primary);
+  padding: 60px 40px;
+  border-radius: 20px;
+  color: white;
+  margin-top: 40px;
+}
+
+.cta-section h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-button {
+  background: white;
+  color: var(--primary-color);
+  border: none;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
+}
+
+.cta-button svg {
+  transition: transform 0.3s ease;
+}
+
+.cta-button:hover svg {
+  transform: translateX(5px);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .content-wrapper {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .description-section {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  
+  .main-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .quem-somos-section {
+    padding: 60px 0;
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .company-logo {
+    width: 220px;
+  }
+  
+  .mission-card,
+  .services-card,
+  .commitment-card,
+  .partnership-card {
+    padding: 25px;
+  }
+  
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  
+  .value-item {
+    padding: 30px 25px;
+  }
+  
+  .cta-section {
+    padding: 40px 25px;
+  }
+  
+  .cta-section h3 {
+    font-size: 1.75rem;
+  }
+  
+  .cta-section p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .main-title {
+    font-size: 2rem;
+  }
+  
+  .company-logo {
+    width: 180px;
+  }
+  
+  .card-icon {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .value-icon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .cta-button {
+    padding: 14px 28px;
+    font-size: 1rem;
+  }
+}
+
+/* Animation Classes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mission-card,
+.services-card,
+.commitment-card,
+.partnership-card,
+.value-item {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.mission-card {
+  animation-delay: 0.1s;
+}
+
+.services-card {
+  animation-delay: 0.2s;
+}
+
+.commitment-card {
+  animation-delay: 0.3s;
+}
+
+.partnership-card {
+  animation-delay: 0.4s;
+}
+
+.value-item:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.value-item:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+.value-item:nth-child(3) {
+  animation-delay: 0.7s;
 }

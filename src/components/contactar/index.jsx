@@ -26,10 +26,10 @@ export default function Contactar() {
     const {nome, email, telefone, mensagem} = getInputs();
     emailSolicitacao(nome, email, telefone, mensagem).then((success)=>{
         if(success){
-          toast.success('Agradecemos a sua solicitação!');
+          toast.success('Agradecemos a sua solicitação! Em breve entraremos em contato.');
         }
         else{
-          toast.error('Houve um problema');
+          toast.error('Houve um problema ao enviar a mensagem');
         }
 
         nomeRef.current.value ='';
@@ -38,6 +38,9 @@ export default function Contactar() {
         mensagemRef.current.value ='';
         setFormPending(false);
 
+      }).catch((error)=>{
+        toast.error('Houve um problema ao enviar a mensagem');
+        setFormPending(false);
       });
     
   }
@@ -63,7 +66,7 @@ export default function Contactar() {
                             </div>
                             <div>
                                 <h4>Email</h4>
-                                <p>contato@solkey.com</p>
+                                <p>solkey.ao@gmail.com</p>
                             </div>
                         </div>
                         
@@ -75,7 +78,7 @@ export default function Contactar() {
                             </div>
                             <div>
                                 <h4>Telefone</h4>
-                                <p>+244 923 955 486</p>
+                                <p>+244 939 416 647</p>
                             </div>
                         </div>
                         
@@ -88,7 +91,7 @@ export default function Contactar() {
                             </div>
                             <div>
                                 <h4>Endereço</h4>
-                                <p>Luanda, Angola</p>
+                                <p>Urbanização Nova Vida, Rua 181 Nº6024, Luanda, Angola</p>
                             </div>
                         </div>
                     </div>

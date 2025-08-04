@@ -11,7 +11,17 @@ export default function Projectos(){
             link: "https://mimbu.net",
             tags: ["Website", "Branding", "Marketing"]
         },
-      
+
+        /*
+        {
+            id: 2,
+            title: "KeyPay - Solução Financeira",
+            category: "Mobile App • Fintech • UX/UI",
+            description: "Aplicação móvel para gestão financeira pessoal e empresarial com interface intuitiva.",
+            image: "/assets/keypay.png",
+            link: "#",
+            tags: ["Mobile", "Fintech", "UX/UI"]
+        }*/
     ];
 
     return (
